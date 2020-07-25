@@ -2,6 +2,11 @@
 
 DFIR-IOC-ut provides an easy way to customize a (virtual) machine with common system artifacts to test your IOC.
 
+# Output
+
+[![Screeshot](resources/dfir_ioc_ut_run)]
+
+
 # Supported types
 
 You can create the following artifacts depending on the platform your target machine is running:
