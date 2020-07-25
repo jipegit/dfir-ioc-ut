@@ -1,0 +1,28 @@
+artifacts:
+  - type: unix_filepath
+    file_path: /tmp/malpath/malware
+  - type: unix_directory
+    directory: /tmp/malwaredir
+  - type: win_directory
+    directory: c:\malicious\path
+  - type: win_filepath
+    file_path: C:\Windows\toto\malware.exe
+  - type: win_mutex
+    mutex_name: malware_mutex
+  - type: win_semaphore
+    semaphore_name: malware_semaphore
+  - type: win_task
+    task_name: evil_task_name
+    task_exe_path: C:\Windows\toto\malware.exe
+    task_schedule: ONSTART
+  - type: win_service
+    service_name: evil_service_name
+    service_display_name: evil_service_display_name
+    service_description: evil_service_description
+    service_exe_path: C:\Windows\toto\malware.exe
+  - type: win_regkey
+    key: HKEY_LOCAL_MACHINE
+    subkey: Software\Microsoft\Windows\CurrentVersion\Run
+    data_name: malware
+    data_value: C:\Windows\toto\malware.exe
+    data_type: REG_SZ
