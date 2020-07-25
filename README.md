@@ -1,8 +1,8 @@
 # DFIR IoC Unit testing
 
-DFIR-IOC-ut provides an easy way to customize a (virtual) machine with common system artifacts to test your IOC.
+DFIR-IOC-ut provides an easy way to customize a (virtual) machine with common *system* artifacts to test Indicators Of Compromise.
 
-It may help your team in different use cases:
+It may help your team with different use cases:
  * IOC validation
  * Threat Hunting simulation
  * Security product (AV/EDR) testing
@@ -23,7 +23,7 @@ It may help your team in different use cases:
 
 # Supported types
 
-You can create the following artifacts depending on the platform your target machine is running:
+You can create the following artifacts depending on the platform of your target (virtual) machine:
 
 * unix_directory
 ``` 
@@ -80,7 +80,7 @@ You can create the following artifacts depending on the platform your target mac
   data_type: REG_SZ
 ```
 
-See. sample.yaml for example.
+See. sample.yaml for examples.
 
 # Requirements
 * PyYAML
