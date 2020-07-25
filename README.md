@@ -4,7 +4,7 @@ DFIR-IOC-ut provides an easy way to customize a (virtual) machine with common sy
 
 # Output
 
-![Screeshot](https://github.com/jipegit/dfir-ioc-ut/resources/dfir_ioc_ut_run.png)
+![Screenshot](https://github.com/jipegit/dfir-ioc-ut/blob/master/resources/dfir_ioc_ut_run.png)
 
 # Supported types
 
@@ -68,8 +68,8 @@ You can create the following artifacts depending on the platform your target mac
 See. sample.yaml for example.
 
 # Requirements
-PyYAML
-pywin32
+* PyYAML
+* pywin32
 
 # Author
 
