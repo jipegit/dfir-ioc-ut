@@ -2,6 +2,21 @@
 
 DFIR-IOC-ut provides an easy way to customize a (virtual) machine with common system artifacts to test your IOC.
 
+It may help your team in different use cases:
+ * IOC validation
+ * Threat Hunting simulation
+ * Security product (AV/EDR) testing
+
+|   | Windows | Linux  |
+|---|---------|--------|
+| File  | X | X  |
+| Directory | X | X |
+| Registry Key  | X |   |
+| Service  | X |   |
+| Scheduled task  | X |   |
+| Mutex  | X |   |
+| Semaphore  | X |   |
+
 # Output
 
 ![Screenshot](https://github.com/jipegit/dfir-ioc-ut/blob/master/resources/dfir_ioc_ut_run.png)
