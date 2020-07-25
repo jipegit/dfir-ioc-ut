@@ -232,7 +232,7 @@ def main():
     args = parser.parse_args()
 
     if args.config:
-        with open(args.config, 'r') as stream:
+        with open(args.config, 'r', encoding='utf-8') as stream:
             try:
                 yaml_artifacts_config = yaml.safe_load(stream)
                 logging.info('Artifacts configuration loaded')
