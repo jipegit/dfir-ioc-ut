@@ -4,8 +4,7 @@ DFIR-IOC-ut provides an easy way to customize a (virtual) machine with common sy
 
 # Output
 
-[![Screeshot](resources/dfir_ioc_ut_run)]
-
+[![Screeshot](https://github.com/jipegit/dfir-ioc-ut/resources/dfir_ioc_ut_run.png)]
 
 # Supported types
 
