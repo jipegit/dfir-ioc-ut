@@ -13,6 +13,8 @@ artifacts:
     file_path: C:\Windows\tùtù\malwar€.exe
   - type: win_mutex
     mutex_name: malware_mutex
+  - type: win_mutex
+    mutex_name: Global\malware_mutex
   - type: win_semaphore
     semaphore_name: malware_semaphore
   - type: win_task

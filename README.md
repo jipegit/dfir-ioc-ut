@@ -1,4 +1,4 @@
-# DFIR IoC Unit testing
+# DFIR IOC Unit testing
 
 DFIR-IOC-ut provides an easy way to customize a (virtual) machine with common *system* artifacts to test Indicators Of Compromise.
 
@@ -7,15 +7,15 @@ It may help your team with different use cases:
  * Threat Hunting simulation
  * Security product (AV/EDR) testing
 
-|   | Windows | Linux  |
-|---|---------|--------|
-| File  | X | X  |
-| Directory | X | X |
-| Registry Key  | X |   |
-| Service  | X |   |
-| Scheduled task  | X |   |
-| Mutex  | X |   |
-| Semaphore  | X |   |
+|   | Windows | Linux  | macOS |
+|---|---------|--------|-------|
+| File  | X | X | X |
+| Directory | X | X | X |
+| Registry Key  | X |   |   |
+| Service  | X |   |   |
+| Scheduled task  | X |   |   |
+| Mutex  | X |   |   |
+| Semaphore  | X |   |   |
 
 # Output
 

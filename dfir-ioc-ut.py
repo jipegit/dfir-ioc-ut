@@ -215,7 +215,7 @@ def parse_artifacts_config(yaml_artifacts_config):
                             artifact['task_schedule'])
         else:
             logging.warning('Unsupported type %s' % artifact['type'])
-    logging.info('Going to sleep now')
+    logging.info('Going to sleep now - PID: %s' % os.getpid())
     while True:
         time.sleep(1)
 
